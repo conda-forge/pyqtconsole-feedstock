@@ -17,6 +17,7 @@ build:
 requirements:
   host:
     - pip
+    - setuptools >=77.0.3
     - python {{ python_min }}
   run:
     - jedi
